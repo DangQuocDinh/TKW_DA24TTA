@@ -1,1 +1,4 @@
-﻿
+﻿table,td,tr {
+	border - collapse: collapse
+	border: 3px solid black;
+}
