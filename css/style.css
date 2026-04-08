@@ -1,4 +1,33 @@
-﻿table,td,tr {
-	border - collapse: collapse
-	border: 3px solid black;
+﻿h1{
+	 text-align: center;
+	 text-shadow: 2px 2px  5px cyan;
+	 font-family:"Brush Script MT", cursive;
+}
+h2
+{
+	font-variant: small-caps;
+}
+b{
+	text-transform: bold;
+}
+ body {
+background:#E0FFFF;
+background-image: url("../assets/.jpg");
+margin: 0;
+padding:0;
+}
+.nametag{
+
+border-radius:28px;
+}
+.avatar{
+width: 100px;
+hieght:100px
+border-radius:50%;
+object-fit: cover;
+}
+table,tr,td
+{
+border - collapse:collapse;
+border: 1px solid black;
 }
