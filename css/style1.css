@@ -1,0 +1,43 @@
+*{
+	margin:0;
+	padding:0;
+}
+.container{
+	border: 1 px solid cyan;
+	padding:10px;
+	margin-left: 70px;
+	margin-right: 70px;
+    background-color: #92c3fa;
+}
+form{
+    background-color: aliceblue;
+    padding: 6px;
+}
+.control{
+    display: block;
+    padding:7px;
+    border: 1px solid lightpink;
+    border-radius: 5px;
+    width: 95%;
+    margin: 5px;
+}
+label{
+    padding: 7px;
+    color: hsl(337, 63%, 64%);
+}
+input.button{
+    background-color: hwb(300 65% 5%);
+    padding: 7px;
+    color: rgb(20, 8, 3);
+    border-radius: 17%;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-shadow: lightpink;
+}
+.Fpassword {
+    margin-top:5px;
+   
+}

@@ -31,3 +31,15 @@ table,tr,td
 border - collapse:collapse;
 border: 1px solid black;
 }
+
+*{
+	margin:0;
+	padding:0;
+}
+.container{
+	border: 1 px solid cyan;
+	padding:10px;
+	margin-left: 70px;
+	margin-right: 70px;
+	
+}
