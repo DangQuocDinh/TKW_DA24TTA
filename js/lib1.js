@@ -5,8 +5,8 @@
 	let tong = 0;
 	for (let i = 0;i<donGia.leght;i++)
 	{
-		thanhTien[i].innerHTML = soLuong * donGia;
-		tong = tong + parserInt(thanhTien[i].innerHTML);
+		thanhTien[i].innerHTML = soLuong[i].innerHTML * donGia[i].innerHTML;
+		tong = tong + parseInt(thanhTien[i].innerHTML);
 	}
 	document.getElementById("tong").innerHTML = tong;
 </script>
