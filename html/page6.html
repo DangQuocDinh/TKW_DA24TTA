@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Danh sách học phần</title>
+</head>
+
+<body>
+    <div class="container">
+        <input type="button" value="Thêm" onclick="add()">
+    </div>
+</body>
+<script>
+    function add() {
+        const myRow = document.createElement("div");
+        myRow.setAttribute("class", "row");
+        const myText = document.createTextNode("Đặng Quốc Định");
+        myRow.appendChild(myText);
+        document.querySelector(".container").appendChild(myRow);    
+    }
+</script>
+</html>
+
+
+
+
